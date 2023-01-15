@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign up</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<style type="text/css">
+		.navbar-nav{
+			margin-left:auto;
+			margin-right: auto;
+		}
+		.navbar-brand{
+			padding: 1%;
+		}
+		.box{
+			background-color: #325f9c;
+			padding: 1% 10% 10% 0%;
+			margin-top: 90px;
+			margin-left: 30px;
+			margin-right: 30px;
+			border-radius: 30px;
+		}
+		.contact{
+			position: relative;
+			margin-top: 10%;
+			padding:5% 0% 5%;
+			background-color: black;
+			color: white;
+		}
+		.navbar-nav{
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.card{
+			margin-top: 100px;
+			margin-left: 400px;
+			width: 600px;
+			height: 600px;
+			border: 1px solid #325f9c;
+			box-shadow: 2px 10px 20px 20px black;
+			border-radius: 30px;
+		}
+		.card-body{
+			padding-top: 5%;
+		}
+		.hr{
+			width: 50%;
+		}
+		.pass1,.pass,.mi,.us{
+			width: 400px;
+		}
+		.but{
+			background-color: #325f9c;
+			width: 100px;
+			border-radius: 30px;
+		}
+		.but:hover{
+			background-color: #325f9c;
+			width: 250px;
+			border-radius: 30px;
+		}
+		@media screen and (max-width: 500px){
+			.box{
+				position: relative;
+				width: 90%;
+			}
+			.card{
+				position: relative;
+				width: 90%;
+				left: -110%;
+			}
+			.ln{
+				position: relative;
+				left: -2%;
+			}
+			.mi,.us,.pass,.pass1{
+				width: 250px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav class="nav nav-pills fixed-top card-header-pills navbar navbar-expand-lg navbar-dark bg-primary">
+		 <a class="navbar-brand" href="index.html">FR</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+			<div  class="collapse navbar-collapse" id="collapsibleNavbar" style="align-content:center">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="index.html #about us" class="nav-link">About Us</a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+					<li class="nav-item"><a href="index.html #institutes" class="nav-link">Institutes</a></li>
+					<li class="nav-item"><a href="vacancies.html" class="nav-link">Vacancies</a></li>
+					<li class="nav-item"><a href="signup.html" class="nav-link">Sign up</a></li>
+					<li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+				</ul> 
+			</div>
+		</nav>
+		<div class="box">
+			<div class="card">
+				<center>
+					<div class="card-body">
+						<h3>Sign Up</h3>
+						<hr class="hr">
+						<input class="fn" type="text-box" name="firstname" placeholder="First Name" required>&nbsp&nbsp&nbsp
+						<input class = "ln" type="text-box" name="lastname" placeholder="Last Name" required>
+						<br><br>
+						<input class="us" type="text-box" name="username"placeholder="Username" required>
+						<br><br>
+						<input class="mi" type="text-box" name="mailid"placeholder="Mail-id" required>
+						<br><br>
+						<input class="pass" type="password" name="pas" placeholder="Password" required>
+						<br><br>
+						<input class="pass1" type="password" name="pas" placeholder="Retype password" required>
+						<br><br>
+						<input class="pass1" type="text-box" name="pn" placeholder="Phone number">
+						<br><br>
+						<input class="check" type="checkbox" name="pn" placeholder="postjob">&nbspHiring&nbsp&nbsp&nbsp&nbsp&nbsp
+						<input class="check" type="checkbox" name="pn" placeholder="postjob">&nbsplooking for job
+						<br><br>
+						<button class = "but" type="submit" required>Sign in</button>
+						<br><br>
+						<a href="login.html">Already have an account?Login</a>
+					</div>
+				</center>
+			</div>
+		</div>
+	<div id="contact" class="contact"><center>
+		<h5>Phone: <a href="tel:+917981963065">+917981963065</a></h5>
+		<h5>Email: <a href="mailto:ujwalb29@gmail.com">ujwalb29@gmail.com</a></h5></center>
+	</div>
+</body>
+</html>
